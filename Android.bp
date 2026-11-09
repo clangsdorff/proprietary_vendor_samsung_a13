@@ -4175,71 +4175,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsfp_sensor",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libsfp_sensor.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libutils",
-                "libbinder_ndk",
-                "libhardware",
-                "libsfp_teegw",
-                "android.hardware.biometrics.fingerprint-V3-ndk",
-                "android.hardware.biometrics.common-V3-ndk",
-                "vendor.samsung.hardware.biometrics.fingerprint-V1-ndk",
-                "libsynaFpSensorTestNwd",
-                "libegis_fp_normal_sensor_test",
-                "libgf_in_system_lib",
-                "libqfp_sensortest",
-                "liblog",
-                "libcrypto",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsfp_sensor.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libutils",
-                "libbinder_ndk",
-                "libhardware",
-                "libsfp_teegw",
-                "android.hardware.biometrics.fingerprint-V3-ndk",
-                "android.hardware.biometrics.common-V3-ndk",
-                "vendor.samsung.hardware.biometrics.fingerprint-V1-ndk",
-                "libsynaFpSensorTestNwd",
-                "libegis_fp_normal_sensor_test",
-                "libgf_in_system_lib",
-                "libqfp_sensortest",
-                "liblog",
-                "libcrypto",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsfp_teegw",
     owner: "samsung",
     strip: {
@@ -5704,6 +5639,34 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbauthtzcommon",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbauthtzcommon.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libteecl",
+                "libc",
+                "libm",
+                "libdl",
+                "libc++",
             ],
         },
     },

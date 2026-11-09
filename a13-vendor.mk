@@ -54,9 +54,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
+    vendor/samsung/a13/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.ramplus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ramplus.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.recovery.s5e3830.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.recovery.s5e3830.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.s5e3830.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e3830.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
@@ -363,7 +363,6 @@ PRODUCT_PACKAGES += \
     libsemnativecarrierfeature \
     libsensorlistener \
     libsensorndkbridge_sec \
-    libsfp_sensor \
     libsfp_teegw \
     libsimba.media.samsung \
     libskhynix_q2b_5022Q_shared \
@@ -403,6 +402,7 @@ PRODUCT_PACKAGES += \
     libaudioproxy \
     libaudioroute_sec \
     libbauthserver \
+    libbauthtzcommon \
     liblastaboxmsg \
     librecordalive \
     nfc_nci_nxpsn \
