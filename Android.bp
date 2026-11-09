@@ -7885,9 +7885,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "nfc-service-nxp.xml",
+    name: "nfc-service-nxp-samsung.xml",
     owner: "samsung",
-    src: "proprietary/vendor/etc/vintf/manifest/nfc-service-nxp.xml",
+    src: "proprietary/vendor/etc/vintf/manifest/nfc-service-nxp-samsung.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -8234,12 +8234,12 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.nfc-service.nxp",
+    name: "android.hardware.nfc-service.nxp-samsung",
     owner: "samsung",
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.nfc-service.nxp",
+                "proprietary/vendor/bin/hw/android.hardware.nfc-service.nxp-samsung",
             ],
             shared_libs: [
                 "libbase",

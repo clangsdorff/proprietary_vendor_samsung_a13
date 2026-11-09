@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/memtrack.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack.samsung.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/nfc-service-nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-nxp.rc \
+    vendor/samsung/a13/proprietary/vendor/etc/init/nfc-service-nxp-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-nxp-samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/power-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power-default-sec.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.2-service.rc \
@@ -484,7 +484,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd.samsung.xml \
     android.hardware.wifi.supplicant.samsung.xml \
     hyper-default-sec.xml \
-    nfc-service-nxp.xml \
+    nfc-service-nxp-samsung.xml \
     power-samsung.xml \
     secaudiohalaidl_manifest.xml \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
@@ -504,7 +504,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-service_stock \
     android.hardware.graphics.composer@2.2-service \
     android.hardware.memtrack-service.exynos_stock \
-    android.hardware.nfc-service.nxp \
+    android.hardware.nfc-service.nxp-samsung \
     android.hardware.power.samsung-service_stock \
     android.hardware.security.keymint-service.samsung \
     android.hardware.sensors-service.multihal.samsung \
