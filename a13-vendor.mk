@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.security.keymint-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.samsung.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.wifi-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
@@ -446,7 +445,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
-    android.hardware.sensors-multihal.samsung.xml \
     android.hardware.wifi-service.samsung.xml \
     android.hardware.wifi.hostapd.samsung.xml \
     android.hardware.wifi.supplicant.samsung.xml \
@@ -474,7 +472,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp-samsung \
     android.hardware.power.samsung-service_stock \
     android.hardware.security.keymint-service.samsung \
-    android.hardware.sensors-service.multihal.samsung \
     android.hardware.wifi-service.samsung \
     gps \
     gpsd \
