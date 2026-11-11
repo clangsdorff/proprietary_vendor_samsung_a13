@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.1-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.sysinput-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.sysinput-default.rc \
@@ -378,7 +377,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl_stock \
     camera.unihal.default \
     libsecaudiohal_aidl \
-    vendor.samsung.hardware.gnss@2.1-impl \
     libSamsngPowerHal \
     libSamsungHyper \
     libVendorSemDataProps \
@@ -426,8 +424,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.camera.device-V1-ndk \
     vendor.samsung.hardware.camera.provider-V1-ndk \
-    vendor.samsung.hardware.gnss@2.0 \
-    vendor.samsung.hardware.gnss@2.1 \
     vendor.samsung.hardware.keymint-V2-ndk \
     vendor.samsung.hardware.radio-V1-ndk \
     vendor.samsung.hardware.radio.bridge-V1-ndk \
@@ -481,7 +477,6 @@ PRODUCT_PACKAGES += \
     secaudiohalaidl \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor.samsung.hardware.camera.provider-service_64 \
-    vendor.samsung.hardware.gnss@2.1-service \
     vendor.samsung.hardware.hyper-service \
     vendor.samsung.hardware.security.widevine.keyprov-service \
     vendor.samsung.hardware.sysinput-service \
