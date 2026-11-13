@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/hyper/config_model.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_model.json \
     vendor/samsung/a13/proprietary/vendor/etc/hyper/config_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_vendor.json \
     vendor/samsung/a13/proprietary/vendor/etc/init.insmod.s5e3830.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.s5e3830.cfg \
-    vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.samsung.rc \
@@ -356,7 +355,6 @@ PRODUCT_PACKAGES += \
     nfc_nci_nxpsn \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
     vendor.samsung.hardware.nfc_aidl-V1-ndk \
-    android.hardware.bluetooth@1.0-impl \
     android.hardware.gnss@2.1-impl_stock \
     camera.unihal.default \
     libsecaudiohal_aidl \
@@ -404,7 +402,6 @@ PRODUCT_PACKAGES += \
     unihal_scenario \
     unihal_uniplugin@1.0 \
     vendor.samsung.hardware.audio-V1-ndk \
-    vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.camera.device-V1-ndk \
     vendor.samsung.hardware.camera.provider-V1-ndk \
     vendor.samsung.hardware.keymint-V2-ndk \
@@ -435,7 +432,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.sysinput-default.xml \
     vendor.samsung.hardware.thermal-default.xml \
     hcgcd \
-    android.hardware.bluetooth@1.0-service \
     android.hardware.gatekeeper@1.0-service \
     android.hardware.graphics.allocator@4.0-service_stock \
     android.hardware.graphics.composer@2.2-service \
