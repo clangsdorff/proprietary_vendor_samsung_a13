@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/memtrack.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/nfc-service-nxp-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-nxp-samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/power-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power-default-sec.rc \
@@ -450,7 +449,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
     android.hardware.graphics.allocator@4.0-service_stock \
     android.hardware.graphics.composer@2.2-service \
-    android.hardware.memtrack-service.exynos_stock \
     android.hardware.nfc-service.nxp-samsung \
     android.hardware.power.samsung-service_stock \
     android.hardware.security.keymint-service.samsung \
