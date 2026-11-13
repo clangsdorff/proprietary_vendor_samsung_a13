@@ -43,11 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.security.keymint-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.samsung.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.wifi-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi-service.samsung.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/hostapd.android.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/hyper-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hyper-default-sec.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
@@ -331,7 +328,6 @@ PRODUCT_PACKAGES += \
     libuuid_vendor \
     libvideobeauty.arcsoft \
     libvideobeauty_interface \
-    libwpa_client \
     libwrappergps \
     sensors.grip \
     sensors.inputvirtual \
@@ -422,15 +418,9 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.widevine.keyprov-V1-ndk \
     vendor.samsung.hardware.sysinput-V2-ndk \
     vendor.samsung.hardware.thermal-V1-ndk \
-    vendor.samsung.hardware.wifi.hostapd-V1-ndk \
-    vendor.samsung.hardware.wifi.nan-V1-ndk \
-    vendor.samsung.hardware.wifi.supplicant-V1-ndk \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
-    android.hardware.wifi-service.samsung.xml \
-    android.hardware.wifi.hostapd.samsung.xml \
-    android.hardware.wifi.supplicant.samsung.xml \
     hyper-default-sec.xml \
     nfc-service-nxp-samsung.xml \
     power-samsung.xml \
@@ -452,10 +442,8 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp-samsung \
     android.hardware.power.samsung-service_stock \
     android.hardware.security.keymint-service.samsung \
-    android.hardware.wifi-service.samsung \
     gps \
     gpsd \
-    hostapd_stock \
     macloader \
     mfgloader \
     rild \
@@ -468,7 +456,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.sysinput-service \
     vendor.samsung.hardware.thermal-service \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
-    wpa_supplicant.samsung \
     init.insmod \
     iod \
     main_abox \
