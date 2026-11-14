@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.sysinput-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.sysinput-default.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal-default.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rild.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
@@ -66,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/locale/plmn_delta_zh-rHK.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rHK.bin \
     vendor/samsung/a13/proprietary/vendor/etc/locale/plmn_delta_zh-rTW.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rTW.bin \
     vendor/samsung/a13/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    vendor/samsung/a13/proprietary/vendor/etc/mercury.json:$(TARGET_COPY_OUT_VENDOR)/etc/mercury.json \
     vendor/samsung/a13/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     vendor/samsung/a13/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/samsung/a13/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
@@ -279,7 +277,6 @@ PRODUCT_PACKAGES += \
     libhdrwrapper \
     libheifcapture \
     libhwjpeg \
-    libhypervintf \
     libimagecodec_native.quram \
     libion_exynos \
     liblivefocus_preview_engine \
@@ -325,7 +322,6 @@ PRODUCT_PACKAGES += \
     libaudioeffectoffload \
     vendor.samsung.hardware.bluetooth.audio-V2-ndk \
     vendor.samsung.hardware.bluetooth.audio-impl \
-    vendor.samsung.hardware.hyper-V2-ndk \
     vendor.samsung.hardware.thermal@1.0 \
     android.hardware.soundtrigger@2.0-impl \
     audio.primary.s5e3830 \
@@ -403,7 +399,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.fkeymaster-V1-ndk \
     vendor.samsung.hardware.security.widevine.keyprov-V1-ndk \
     vendor.samsung.hardware.sysinput-V2-ndk \
-    vendor.samsung.hardware.thermal-V1-ndk \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
@@ -417,7 +412,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.widevine.keyprov-service.xml \
     vendor.samsung.hardware.sehradio_manifest_2_202404.xml \
     vendor.samsung.hardware.sysinput-default.xml \
-    vendor.samsung.hardware.thermal-default.xml \
     hcgcd \
     android.hardware.graphics.allocator@4.0-service_stock \
     android.hardware.nfc-service.nxp-samsung \
@@ -433,7 +427,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.camera.provider-service_64 \
     vendor.samsung.hardware.security.widevine.keyprov-service \
     vendor.samsung.hardware.sysinput-service \
-    vendor.samsung.hardware.thermal-service \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     init.insmod \
     iod \
