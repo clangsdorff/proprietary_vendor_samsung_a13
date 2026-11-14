@@ -33,16 +33,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
     vendor/samsung/a13/proprietary/vendor/etc/gps_debug.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps_debug.conf \
     vendor/samsung/a13/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/samsung/a13/proprietary/vendor/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
-    vendor/samsung/a13/proprietary/vendor/etc/hyper/config_hyper_permission.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_hyper_permission.json \
-    vendor/samsung/a13/proprietary/vendor/etc/hyper/config_model.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_model.json \
-    vendor/samsung/a13/proprietary/vendor/etc/hyper/config_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_vendor.json \
     vendor/samsung/a13/proprietary/vendor/etc/init.insmod.s5e3830.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.s5e3830.cfg \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/android.hardware.security.keymint-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/hyper-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hyper-default-sec.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.s5e3830.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.s5e3830.rc \
@@ -51,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/nfc-service-nxp-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-nxp-samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/power-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power-default-sec.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.2-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/secaudiohalaidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secaudiohalaidl.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
@@ -355,8 +349,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl_stock \
     camera.unihal.default \
     libsecaudiohal_aidl \
-    libSamsngPowerHal \
-    libSamsungHyper \
     libVendorSemDataProps \
     libVendorSemTelephonyProps \
     lib_samsung_profiler \
@@ -415,9 +407,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
-    hyper-default-sec.xml \
     nfc-service-nxp-samsung.xml \
-    power-samsung.xml \
     secaudiohalaidl_manifest.xml \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
     vendor.samsung.hardware.camera.provider-service.xml \
@@ -431,7 +421,6 @@ PRODUCT_PACKAGES += \
     hcgcd \
     android.hardware.graphics.allocator@4.0-service_stock \
     android.hardware.nfc-service.nxp-samsung \
-    android.hardware.power.samsung-service_stock \
     android.hardware.security.keymint-service.samsung \
     gps \
     gpsd \
@@ -442,7 +431,6 @@ PRODUCT_PACKAGES += \
     secaudiohalaidl \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor.samsung.hardware.camera.provider-service_64 \
-    vendor.samsung.hardware.hyper-service \
     vendor.samsung.hardware.security.widevine.keyprov-service \
     vendor.samsung.hardware.sysinput-service \
     vendor.samsung.hardware.thermal-service \
