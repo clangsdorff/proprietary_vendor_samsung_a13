@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/nfc-service-nxp-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-nxp-samsung.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/secaudiohalaidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secaudiohalaidl.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
@@ -336,7 +335,6 @@ PRODUCT_PACKAGES += \
     librecordalive \
     nfc_nci_nxpsn \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
-    vendor.samsung.hardware.nfc_aidl-V1-ndk \
     android.hardware.gnss@2.1-impl_stock \
     camera.unihal.default \
     libsecaudiohal_aidl \
@@ -397,7 +395,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
-    nfc-service-nxp-samsung.xml \
     secaudiohalaidl_manifest.xml \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
     vendor.samsung.hardware.camera.provider-service.xml \
@@ -408,7 +405,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.sehradio_manifest_2_202404.xml \
     vendor.samsung.hardware.sysinput-default.xml \
     hcgcd \
-    android.hardware.nfc-service.nxp-samsung \
     android.hardware.security.keymint-service.samsung \
     gps \
     gpsd \
