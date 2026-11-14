@@ -5555,36 +5555,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.samsung.hardware.biometrics.fingerprint@3.0",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.samsung.hardware.biometrics.fingerprint@3.0.so",
-            ],
-            shared_libs: [
-                "android.hardware.biometrics.fingerprint@2.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-
-cc_prebuilt_library_shared {
     name: "android.hardware.gnss@2.1-impl_stock",
     stem: "android.hardware.gnss@2.1-impl",
     owner: "samsung",
@@ -7296,15 +7266,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml",
-    owner: "samsung",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "vendor.samsung.hardware.camera.provider-service.xml",
     owner: "samsung",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.samsung.hardware.camera.provider-service.xml",
@@ -7580,38 +7541,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.samsung.hardware.biometrics.fingerprint@3.0-service",
-    owner: "samsung",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libhidlbase",
-                "libhardware",
-                "libutils",
-                "android.hardware.biometrics.fingerprint@2.1",
-                "vendor.samsung.hardware.biometrics.fingerprint@3.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
     strip: {
         none: true,
     },

@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/secaudiohalaidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secaudiohalaidl.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc \
@@ -334,7 +333,6 @@ PRODUCT_PACKAGES += \
     liblastaboxmsg \
     librecordalive \
     nfc_nci_nxpsn \
-    vendor.samsung.hardware.biometrics.fingerprint@3.0 \
     android.hardware.gnss@2.1-impl_stock \
     camera.unihal.default \
     libsecaudiohal_aidl \
@@ -396,7 +394,6 @@ PRODUCT_PACKAGES += \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
     secaudiohalaidl_manifest.xml \
-    vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
     vendor.samsung.hardware.camera.provider-service.xml \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_202404.xml \
@@ -412,7 +409,6 @@ PRODUCT_PACKAGES += \
     mfgloader \
     rild \
     secaudiohalaidl \
-    vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor.samsung.hardware.camera.provider-service_64 \
     vendor.samsung.hardware.security.widevine.keyprov-service \
     vendor.samsung.hardware.sysinput-service \
