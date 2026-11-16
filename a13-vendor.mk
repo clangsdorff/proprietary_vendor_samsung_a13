@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/samsung/a13/proprietary/vendor/etc/btcon.json:$(TARGET_COPY_OUT_VENDOR)/etc/btcon.json \
     vendor/samsung/a13/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
-    vendor/samsung/a13/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/a13/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/a13/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/a13/proprietary/vendor/etc/gnss/deleteLogCommands:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/deleteLogCommands \
@@ -239,13 +238,11 @@ PRODUCT_PACKAGES += \
     libmpbase \
     libpadm \
     libphotohdr \
-    libprofileparamstorage \
     libqfp_sensortest \
     libremosaic_wrapper \
     libsavsac \
     libsavscmn \
     libsavsvc \
-    libsecaudiocoreutils \
     libsecaudioinfo \
     libsecnativefeature \
     libsecril-client \
@@ -259,7 +256,6 @@ PRODUCT_PACKAGES += \
     libsnaace \
     libsnamrnb \
     libsnamrwb \
-    libspatializerparamstorage \
     libstagefright_foundation_vendor \
     libsynaFpSensorTestNwd \
     libteecl \
@@ -300,7 +296,6 @@ PRODUCT_PACKAGES += \
     libVendorSemDataProps \
     libVendorSemTelephonyProps \
     lib_samsung_profiler \
-    libdeccfg \
     libdk_vnd_service_core \
     libdlrmsc \
     libdualcam_refocus_image \
