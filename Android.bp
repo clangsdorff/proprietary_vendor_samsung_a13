@@ -7289,33 +7289,6 @@ prebuilt_etc_xml {
     sub_dir: "vintf/manifest",
     soc_specific: true,
 }
-
-cc_prebuilt_binary {
-    name: "hcgcd",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hcgcd",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "android.hardware.security.keymint-service.samsung",
     owner: "samsung",
@@ -7659,32 +7632,6 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
-cc_prebuilt_binary {
-    name: "iod",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/iod",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "slsi_wlan_udi_log",
     owner: "samsung",
