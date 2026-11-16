@@ -285,7 +285,6 @@ PRODUCT_PACKAGES += \
     libVendorSemDataProps \
     libVendorSemTelephonyProps \
     lib_samsung_profiler \
-    libdk_vnd_service_core \
     libdlrmsc \
     libdualcam_refocus_image \
     libdualcam_refocus_video \
@@ -308,9 +307,7 @@ PRODUCT_PACKAGES += \
     libsec2lsi_conversion \
     libskeymint10device \
     libskeymint_cli \
-    libstork_shared \
     libvkmanager_vendor \
-    libvkservice \
     libwifi-hal \
     unihal_android \
     unihal_cutils \
