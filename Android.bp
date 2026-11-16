@@ -3408,23 +3408,6 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libsehbluetooth_audio_session_aidl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libbinder_ndk",
-                "libfmq",
-                "liblog",
-                "vendor.samsung.hardware.bluetooth.audio-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libsehbluetooth_audio_session_aidl.so",
@@ -3443,7 +3426,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "both",
+    compile_multilib: "64",
     prefer: true,
     soc_specific: true,
 }
@@ -4143,21 +4126,6 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio-V2-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "android.hardware.common.fmq-V1-ndk",
-                "android.hardware.audio.common-V3-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio-V2-ndk.so",
@@ -4174,7 +4142,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "both",
+    compile_multilib: "64",
     prefer: true,
     soc_specific: true,
 }
@@ -4186,24 +4154,6 @@ cc_prebuilt_library_shared {
         none: true,
     },
     target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libcutils",
-                "libfmq",
-                "liblog",
-                "vendor.samsung.hardware.bluetooth.audio-V2-ndk",
-                "libsehbluetooth_audio_session_aidl",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio-impl.so",
@@ -4223,7 +4173,7 @@ cc_prebuilt_library_shared {
             ],
         },
     },
-    compile_multilib: "both",
+    compile_multilib: "64",
     prefer: true,
     soc_specific: true,
 }
