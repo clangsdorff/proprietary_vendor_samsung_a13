@@ -7394,35 +7394,6 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
-
-cc_prebuilt_binary {
-    name: "mfgloader",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/mfgloader",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "rild",
     owner: "samsung",
@@ -7632,54 +7603,6 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
-cc_prebuilt_binary {
-    name: "slsi_wlan_udi_log",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/slsi_wlan_udi_log",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "slsi_wlan_udi_log_decode",
-    owner: "samsung",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/slsi_wlan_udi_log_decode",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "tzdaemon",
     owner: "samsung",
