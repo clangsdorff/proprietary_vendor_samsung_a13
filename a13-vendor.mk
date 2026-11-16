@@ -317,14 +317,12 @@ PRODUCT_PACKAGES += \
     libscaler_sw.unifunc \
     libsec-ril \
     libsec2lsi_conversion \
-    libsecaudiohalproxy_vendor \
     libskeymint10device \
     libskeymint_cli \
     libstork_shared \
     libvkmanager_vendor \
     libvkservice \
     libwifi-hal \
-    service-listener-ext-aidl-V1-ndk \
     unihal_android \
     unihal_cutils \
     unihal_entry \
