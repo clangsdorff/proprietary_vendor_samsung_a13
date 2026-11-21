@@ -125,6 +125,7 @@
 	<ctl name="ABOX MCD_RXSE_A" value="None" />
 	<ctl name="ABOX MCD_SBOTHERS_A" value="None" />
 	<ctl name="ABOX MCD_LBEFF_A" value="None" />
+	<ctl name="ABOX OEM PROCESS" value="1" />
 
 	<ctl name="EP EP On" value="0" />
 	<ctl name="SPK SPK On" value="0" />
@@ -1418,6 +1419,7 @@
 		<path name="route-apcall-mic" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="communication-speaker-mic">
@@ -1426,6 +1428,7 @@
 		<path name="route-apcall-mic" />
 		<ctl name="ABOX Sound Type" value="SPEAKER" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="communication-gaming-speaker-mic">
@@ -1442,6 +1445,7 @@
 		<path name="route-apcall-mic" />
 		<ctl name="ABOX Sound Type" value="HEADSET" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="communication-headphone-mic">
@@ -1460,6 +1464,7 @@
 		<path name="route-apcall-callrec" />
 		<ctl name="ABOX Sound Type" value="BTVOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="communication-bt-sco-nrec-headset-in">
@@ -1622,7 +1627,7 @@
 		<path name="route-txse-to-vss" />
 		<path name="route-uaif0-to-nsrc4" />
 		<path name="route-txse-to-vpcmindai3" />
-		<path name="route-wdma4-to-vpcmindai0" />
+		<path name="route-txse-chmatcher-to-vpcmindai0" />
 	</path>
 
 	<path name="route-cp-callrec">
@@ -1638,6 +1643,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="incall-speaker-mic">
@@ -1647,6 +1653,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="SPEAKER" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="incall-headset-mic">
@@ -1656,6 +1663,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="HEADSET" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="incall-headphone-mic">
@@ -1672,10 +1680,11 @@
 		<path name="route-vssadapter-to-txse" />
 		<path name="route-txse-to-vss" />
 		<path name="route-txse-to-vpcmindai3" />
-		<path name="route-wdma4-to-vpcmindai0" />
+		<path name="route-txse-chmatcher-to-vpcmindai0" />
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="BTVOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<!-- VoiceCall CP NB -->
@@ -1716,7 +1725,7 @@
 		<path name="route-nsrc1-to-wdma1" />
 		<path name="route-sifs0-to-nsrc1" />
 		<path name="route-txse-to-vpcmindai3" />
-		<path name="route-wdma4-to-vpcmindai0" />
+		<path name="route-txse-chmatcher-to-vpcmindai0" />
 		<path name="route-callrec-to-vpcmindai6" />
 		<path name="route-cp-callrec" />
 	</path>
@@ -2039,6 +2048,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="loopback-2nd-mic">
@@ -2048,6 +2058,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<!-- Packet Loopback Input -->
@@ -2058,6 +2069,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="loopback_packet-2nd-mic">
@@ -2067,6 +2079,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="SPEAKER" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="loopback_packet-headset-mic">
@@ -2080,6 +2093,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="loopback_packet-handset-dualmic">
@@ -2089,6 +2103,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="VOICE" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<path name="loopback_packet-speaker-dualmic">
@@ -2098,6 +2113,7 @@
 		<path name="route-cp-callrec" />
 		<ctl name="ABOX Sound Type" value="SPEAKER" />
 		<ctl name="ABOX OEM NXP Mode" value="1" />
+		<ctl name="ABOX OEM PROCESS" value="0" />
 	</path>
 
 	<!-- Packet Loopback incallmusic input -->
