@@ -13,7 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.json \
     vendor/samsung/a13/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_scenarios.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_scenarios.json \
     vendor/samsung/a13/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
-    vendor/samsung/a13/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a13/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/samsung/a13/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/samsung/a13/proprietary/vendor/etc/beauty/settings.dat:$(TARGET_COPY_OUT_VENDOR)/etc/beauty/settings.dat \
@@ -269,17 +268,12 @@ PRODUCT_PACKAGES += \
     sensors.sensorhub \
     libaudioeffectoffload \
     libaudiosaplus_sec \
-    libmysound \
-    libmyspace \
     libprofileparamstorage \
-    libsamsungSoundbooster_plus \
     libsecaudiocoreutils \
     libspatializerparamstorage \
     libswdap \
-    lib_SoundAlive_3DPosition_ver202 \
     lib_SoundAlive_AlbumArt_ver105 \
     lib_SoundAlive_play_plus_ver400 \
-    lib_SoundBooster_ver1100 \
     vendor.samsung.hardware.bluetooth.audio-V2-ndk \
     vendor.samsung.hardware.bluetooth.audio-impl \
     vendor.samsung.hardware.thermal@1.0 \
