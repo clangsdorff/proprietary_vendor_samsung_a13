@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/samsung/a14",
+        "device/samsung/s5e3830-common",
         "hardware/samsung",
     ],
 }
