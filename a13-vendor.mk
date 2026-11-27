@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc \
-    vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.hardware.sysinput-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.sysinput-default.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung.rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rild.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
     vendor/samsung/a13/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
@@ -405,7 +404,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.sim-V1-ndk \
     vendor.samsung.hardware.security.fkeymaster-V1-ndk \
     vendor.samsung.hardware.security.widevine.keyprov-V1-ndk \
-    vendor.samsung.hardware.sysinput-V2-ndk \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     com.google.android.widevine.nonupdatable \
     com.samsung.android.camera.unihal.signed \
@@ -415,7 +413,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.fkeymaster-service.xml \
     vendor.samsung.hardware.security.widevine.keyprov-service.xml \
     vendor.samsung.hardware.sehradio_manifest_2_202404.xml \
-    vendor.samsung.hardware.sysinput-default.xml \
     android.hardware.security.keymint-service.samsung \
     gps \
     gpsd \
@@ -424,7 +421,6 @@ PRODUCT_PACKAGES += \
     secaudiohalaidl \
     vendor.samsung.hardware.camera.provider-service_64 \
     vendor.samsung.hardware.security.widevine.keyprov-service \
-    vendor.samsung.hardware.sysinput-service \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     tzdaemon \
     tzts_daemon \
