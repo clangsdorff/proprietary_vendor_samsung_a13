@@ -386,7 +386,6 @@ PRODUCT_PACKAGES += \
     libskeymint10device \
     libskeymint_cli \
     libvkmanager_vendor \
-    libwifi-hal \
     unihal_android \
     unihal_cutils \
     unihal_entry \
